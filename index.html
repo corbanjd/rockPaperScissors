@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+
+    <script>
+
+
+
+        // a function that randomly returns either rock, paper, or scissors.
+
+        function computerPlay(){
+            let computerArray = [
+                        "Rock",
+                        "Paper",
+                        "Scissors"
+        
+                    ];
+        
+                    return computerArray[Math.floor(Math.random() * computerArray.length)];
+
+        }
+
+
+/*
+        function inputCheck(playerSelection){
+               
+               let firstLetter = playerSelection.charAt(0);
+               let restOfString = playerSelection.slice(1).toLowerCase();
+               playerSelection = firstLetter.toUpperCase() + restOfString;
+               return playerSelection; 
+                                  
+
+}
+*/
+
+
+//this prompts for input of either rock, paper, or scissors..
+let playerSelection = window.prompt("Rock, Paper, or Scissors?");
+
+console.log(playerSelection);
+
+
+
+
+
+
+
+        //this plays a single round and returns what happens
+        function playRound (playerSelection, computerSelection){
+
+                if (playerSelection == "Rock" && computerSelection == "Rock") {
+                   console.log("tie");
+                }
+
+
+        }
+
+
+
+
+//will return a string that says either, "you lose or you win, and why you lost or won."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /*
+                // making the computer select something
+                function computerPlay() {
+        
+                }
+        
+                //prompting for user selection.
+                let playerSelection = window.prompt("Rock, paper, or scissors?");
+        
+                function correctCasing(playerSelection) {
+                    let firstLetter = string.charAt(0);
+                    let restOfString = string.slice(1).toLowerCase();
+                    playerSelection = firstLetter.toUpperCase() + restOfString;
+                    return playerSelection;
+        
+                }
+        
+        
+                // a function that plays a single round of rock paper scissors.
+                function playRound(playerSelection, computerSelection) {
+        
+        
+                }
+                */
+
+    </script>
+
+</body>
+
+</html>
