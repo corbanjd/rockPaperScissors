@@ -1,0 +1,91 @@
+
+@font-face {
+  font-family: arcadeTextOld;
+  src: url(PressStart2P-Regular.ttf);
+}
+
+
+body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+.title {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+
+}
+
+.versusText {
+  font-family: arcadeTextOld;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.player {
+  padding-right: 30vw;
+}
+
+.computer {
+  padding-left: 30vw;
+}
+
+.versusImage {
+  display: flex;
+  justify-content: center;
+  padding-top: 4vh;
+  height: 40vh;
+ 
+
+}
+
+.playerImage {
+  padding-right: 25vw;
+  /*background-color: white;*/
+}
+
+.computerImage {
+  padding-left: 25vw;
+ /* background-color: white;*/
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* remove extra space below image */
+}
+
+.stats {
+  text-align: center;
+  font-family: arcadeTextOld;
+  color: white;
+line-height: 120%;
+}
+
+.rpsImages{
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  gap: 30vw;
+  padding-bottom: 10vh;
+}
+
+.rock {
+
+}
+
+.paper {
+
+
+}
+
+.scissors {
+
+ 
+}
