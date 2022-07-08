@@ -28,6 +28,31 @@ body {
   justify-content: center;
 }
 
+.reset {
+  display: flex;
+  justify-content: center;
+  transform: scale(2);
+  font-family: arcadeTextOld;
+  color: white;
+  background-color: black;
+}
+
+.buttonAligner{
+  display: flex;
+  justify-content: center;
+}
+.playerScore {
+  font-family: arcadeTextOld;
+  color: white;
+  text-align: center;
+}
+
+.computerScore {
+  font-family: arcadeTextOld;
+  color: white;
+  text-align: center;
+}
+
 .player {
   padding-right: 30vw;
 }
@@ -41,10 +66,15 @@ body {
   justify-content: center;
   padding-top: 4vh;
   height: 40vh;
+
+ 
  
 
 }
 
+.scoreVersus{
+  
+}
 .playerImage {
   padding-right: 25vw;
   /*background-color: white;*/
@@ -68,24 +98,44 @@ img{
 line-height: 120%;
 }
 
+.ties {
+  text-align: center;
+  font-family: arcadeTextOld;
+  color: white;
+
+}
+
 .rpsImages{
   display: flex;
   justify-content: center;
   height: 20vh;
   gap: 30vw;
-  padding-bottom: 10vh;
 }
 
-.rock {
+.rock:hover {
+  transform: scale(1.5)
+}
+
+.paper:hover {
+  transform: scale(1.5)
 
 }
 
-.paper {
-
-
-}
-
-.scissors {
-
+.scissors:hover {
+  transform: scale(1.5)
  
+}
+
+.playerImage:hover{
+  -webkit-filter: drop-shadow(1px 1px 0 black)
+  drop-shadow(-1px -1px 0 black);
+filter: drop-shadow(1px 1px 0 black) 
+drop-shadow(-1px -1px 0 black);
+}
+
+.computerImage:hover{
+  -webkit-filter: drop-shadow(1px 1px 0 black)
+  drop-shadow(-1px -1px 0 black);
+filter: drop-shadow(1px 1px 0 black) 
+drop-shadow(-1px -1px 0 black);
 }
